@@ -1,0 +1,17 @@
+.notification {
+    position: fixed;
+    z-index: 999;
+    padding: 1.15rem 1.65rem;
+    border-radius: 1rem;
+    left: 50%;
+    top: 5%;
+    background-color: var(--white100);
+    color: var(--black100);
+    font-size: 1.4rem;
+    box-shadow: rgb(19 126 255 / 5%) 0px 1px 3px, rgb(0 0 0 / 2%) 0px -1px 0px;
+}
+
+.notification_text {
+    display: inline-block;
+    margin-left: 1rem;
+}

@@ -1,0 +1,42 @@
+.feature_heading {
+    font-size: 1.5rem;
+    margin-bottom: 0.8rem;
+    color: var(--gray100);
+    font-weight: 400;
+}
+
+.feature_content {
+    color: var(--blue700);
+    background-color: rgba(208, 229, 255, 0.3);
+    border: 1px solid rgba(189, 219, 255, 0.3);
+    padding: 1rem 1.6rem;
+}
+
+.feature_item {
+    font-size: 1.4rem;
+    cursor: pointer;
+    color: var(--blue700);
+    font-weight: 600;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+
+    span {
+        color: var(--gray100);
+        display: inline-block;
+        margin-left: 4px;
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    svg {
+        margin-right: 0.4rem;
+    }
+
+    &:hover{
+        color: var(--blue400);
+    }
+    &:hover span{
+        color: var(--blue400);
+    }
+}

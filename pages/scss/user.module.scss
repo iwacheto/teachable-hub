@@ -1,0 +1,25 @@
+.container {
+    max-width: 124rem;
+    width: 100%;
+    margin: 4rem auto 0px;
+    padding: 0px 2.8rem 4rem;
+}
+
+.search {
+    margin-bottom: 4rem;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 1.4rem 1rem;
+    border-bottom: 1px dotted var(--white400);
+
+    h1 {
+        font-size: 2.2rem;
+        font-weight: 300;
+        letter-spacing: 0.1rem;
+        color: var(--gray400);
+    }
+}

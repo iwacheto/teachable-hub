@@ -1,0 +1,33 @@
+.tooltip {
+    padding: 1rem 1rem 2rem;
+    color: rgba(255, 255, 255, 0.9);
+    background-color: var(--black100);
+    text-align: left;
+    border-radius: 6px;
+    box-shadow: 0 0 4px rgb(0 0 0 / 17%);
+    min-height: 34px;
+    position: absolute;
+    bottom: 115%;
+    min-width: 130px;
+
+    &.center{
+        transform: translateX(-45%);
+
+        .tooltip_arrow{
+            left: 50%;
+        }
+    }
+}
+
+.tooltip_arrow {
+    bottom: -5px;
+    margin-left: -5px;
+    border-width: 5px 5px 0;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-top-color: var(--black400);
+    left: 20%;
+    position: absolute;
+}

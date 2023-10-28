@@ -1,0 +1,26 @@
+.pagination {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.page_item {
+    font-size: 1.6rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+    min-width: 2.8rem;
+    height: 2.8rem;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--white400);
+    border-radius: 3px;
+
+    &.active{
+        color: var(--white100);
+        background-color: var(--blue200);
+        border-color: var(--blue200);
+    }
+}
