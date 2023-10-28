@@ -1,0 +1,32 @@
+.item {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    cursor: pointer;
+    color: var(--blue700);
+    font-weight: 600;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    span {
+        color: var(--gray100);
+        display: inline-block;
+        margin-left: 4px;
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    svg {
+        margin-right: 0.4rem;
+        fill: var(--blue200);
+    }
+
+    &:hover {
+        color: var(--blue400);
+    }
+
+    &:hover span {
+        color: var(--blue400);
+    }
+}

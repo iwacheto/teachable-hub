@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('../assets/fonts/Segoe\ UI.ttf') format('ttf');
+    font-display: swap;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 10px;
+
+    // white colors
+    --white100: #fff;
+    --white200: rgb(248, 249, 250);
+    --white300: #f8f9fc;
+    --white400: rgb(225, 228, 232);
+    --white500: rgb(250, 251, 252);
+
+    // Black colors
+    --black100: rgb(36, 41, 46);
+    --black200: #000;
+    --black300: rgb(62, 63, 66);
+    --black400: #373737;
+    --black500: rgb(88, 96, 105);
+
+    // Red colors
+    --red100: rgb(255, 17, 84);
+    --red200: rgb(254, 77, 151);
+    --red300: rgb(255, 219, 224);
+    --red400: rgb(141, 49, 60);
+    --red500: rgb(255, 205, 211);
+
+    // Gray colors
+    --gray100: rgb(100, 119, 135);
+    --gray200: rgb(126, 141, 154);
+    --gray300: rgb(158, 160, 165);
+    --gray400: rgb(77, 89, 98);
+    --gray500: #778CA2;
+    --gray600: rgb(238 238 238);
+
+    // Blue colors
+    --blue100: rgb(232, 236, 239);
+    --blue200: rgb(19, 126, 255);
+    --blue300: #2f55d4;
+    --blue400: rgb(0, 90, 198);
+    --blue500: rgb(3, 102, 214);
+    --blue600: rgb(77, 124, 254);
+    --blue700: rgb(19, 74, 141);
+
+    // Purple colors
+    --purple100: rgb(115, 103, 240);
+
+    // Green colors
+    --green100: rgb(91, 193, 70);
+    --green200: rgb(76, 168, 56);
+    --green300: rgb(71, 159, 53);
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    color: var(--gray100);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+svg {
+    color: inherit;
+}
+
+// Dimensions of main container
+.main-container {
+    width: 100%;
+    max-width: 124rem;
+    margin: 0 auto;
+    padding: 0px 2.8rem;
+}
+
+// Buttons style
+.primary-button,
+.default-button {
+    font-family: Segoe UI;
+}
+
+.default-button {
+    border: 1px solid var(--blue200);
+    background-color: var(--blue200);
+    color: var(--white100);
+    height: 4.8rem;
+    font-size: 1.6rem;
+}
+
+.primary-button {
+    border: 1px solid var(--green100);
+    background-color: var(--green100);
+    color: var(--white100);
+    height: 3rem;
+    font-size: 1.4rem;
+
+    &:hover {
+        border: 1px solid var(--green300);
+        background-color: var(--green200);
+    }
+}
+
+.primary-button:disabled,
+.default-button:disabled {
+    border: 1px solid var(--gray200);
+    background-color: var(--gray200);
+}
+
+.tab-container {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    display: flex;
+}
+
+.feature-item {
+    font-size: 1.4rem;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    align-items: center;
+
+    .feature-item-span {
+        color: rgba(255, 255, 255, 0.9);
+        font-weight: 600;
+    }
+
+    &:hover .feature-item-span {
+        color: rgba(255, 255, 255, 0.9);
+    }
+}
+
+.feature-item-0,
+.feature-item-1 {
+    .feature-item-span {
+        font-weight: 400;
+    }
+}
+
+.feature-item-0 {
+    font-size: 1.6rem;
+}
+
+.feature-item-1 {
+    margin-bottom: 3rem;
+}

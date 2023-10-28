@@ -1,0 +1,39 @@
+.main_tab_content {
+    flex: 1;
+}
+
+.tab_header {
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 2rem 1.4rem 1rem;
+    border-bottom: 1px dotted var(--white400);
+}
+
+.heading {
+    color: var(--gray400);
+    font-size: 2.2rem;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    svg {
+        margin-right: 8px;
+        fill: var(--gray400);
+    }
+}
+
+.edit_icon{
+    display: inline-block;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.tab_content {
+    padding: 2.8rem;
+}

@@ -1,0 +1,23 @@
+.container {
+    padding: 2rem 1.4rem 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 1.4rem 1rem;
+    border-bottom: 1px dotted var(--white400);
+}
+
+.heading {
+    flex: 1;
+    color: var(--gray400);
+    font-size: 2.2rem;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+
+    span {
+        font-weight: 700;
+    }
+}

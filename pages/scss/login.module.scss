@@ -1,0 +1,46 @@
+.login {
+    background-color: var(--white200);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login_container {
+    width: 76rem;
+    height: 54rem;
+}
+
+.header {
+    background-color: var(--black100);
+    min-height: 6.2rem;
+    padding: 0px 2rem;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+}
+
+.login_content {
+    display: flex;
+}
+
+.form,
+.image {
+    width: 50%;
+}
+
+.image {
+    background-image: url('https://app.teachablehub.com/assets/images/ml-image-bg.jpg');
+    background-size: contain;
+}
+
+.form {
+    background-color: var(--white100);
+    height: 54rem;
+    box-shadow: rgb(19 126 255 / 5%) 0px 1px 3px, rgb(0 0 0 / 2%) 0px -1px 0px;
+}
+
+.form_content {
+    padding: 3rem 3rem 4rem;
+}

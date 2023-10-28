@@ -1,0 +1,23 @@
+.no_result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heading {
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 0.8rem;
+}
+
+.subheading {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: var(--black500);
+    margin-bottom: 3rem;
+}
+
+.link {
+    color: var(--blue400);
+}

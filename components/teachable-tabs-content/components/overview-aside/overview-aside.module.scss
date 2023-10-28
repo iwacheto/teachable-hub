@@ -1,0 +1,36 @@
+.description {
+    font-style: italic;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.8rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.aside_link_container {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+}
+
+.aside_link {
+    display: flex;
+    align-items: center;
+
+    &:hover svg,
+    &:hover {
+        color: var(--blue500);
+        fill: var(--blue500);
+    }
+
+    svg {
+        margin-right: 1rem;
+        fill: var(--gray100);
+    }
+}

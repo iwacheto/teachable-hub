@@ -1,0 +1,17 @@
+.aside {
+    min-width: 26rem;
+    max-width: 26rem;
+    width: 26rem;
+    margin-left: 2rem;
+    padding-left: 3rem;
+    border-left: 1px dotted var(--white400);
+}
+
+.left_aside {
+    border-left: none;
+    border-right: 1px dotted var(--white400);
+    margin-left: 0;
+    padding-left: 0;
+    margin-right: 2rem;
+    padding-right: 3rem;
+}
