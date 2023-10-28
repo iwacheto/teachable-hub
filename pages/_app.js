@@ -1,5 +1,5 @@
 import '../styles/index.scss';
-import "../utils/interceptor";
+// import "../utils/interceptor";
 // import "@uiw/react-textarea-code-editor/dist.css";
 import { Provider } from 'react-redux';
 import { store } from '../store/store';
