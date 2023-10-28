@@ -1,5 +1,5 @@
 import React from "react";
-import { client } from "../utils/client/sanity";
+import { client } from "../../utils/client/sanity";
 
 const Sanity = ({ movies }) => {
   console.log(movies);
